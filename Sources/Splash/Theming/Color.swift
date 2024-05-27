@@ -4,7 +4,7 @@
  *  MIT license - see LICENSE.md
  */
 
-#if os(iOS)
+#if os(iOS) || os(visionOS)
 import UIKit
 public typealias Color = UIColor
 #elseif os(macOS)
